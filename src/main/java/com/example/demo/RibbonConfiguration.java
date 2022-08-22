@@ -8,9 +8,12 @@ import com.netflix.loadbalancer.IPing;
 import com.netflix.loadbalancer.IRule;
 import com.netflix.loadbalancer.PingUrl;
 import com.netflix.loadbalancer.WeightedResponseTimeRule;
+import org.springframework.web.client.RestTemplate;
 
- 
+
 public class RibbonConfiguration {
+
+
     
     @Autowired
     private IClientConfig ribbonClientConfig;
